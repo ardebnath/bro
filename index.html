@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101827" />
+    <title>For Basty — brother by choice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="is-loading">
+    <section class="release-gate" id="releaseGate" aria-live="polite" aria-labelledby="releaseTitle">
+      <div class="release-gate__card">
+        <p class="release-gate__eyebrow"><span></span> access control</p>
+        <p class="release-gate__code">// birthday.build</p>
+        <h1 id="releaseTitle">This page unlocks<br />on <em>11.11.2026</em></h1>
+        <p class="release-gate__copy">Basty’s birthday build is still private. Come back on 11 November 2026.</p>
+        <div class="release-gate__timer" aria-label="Time until the birthday page unlocks">
+          <div><b id="releaseDays">00</b><span>days</span></div>
+          <div><b id="releaseHours">00</b><span>hours</span></div>
+          <div><b id="releaseMinutes">00</b><span>mins</span></div>
+          <div><b id="releaseSeconds">00</b><span>secs</span></div>
+        </div>
+        <p class="release-gate__status"><i></i> status: waiting for release date</p>
+      </div>
+    </section>
+    <section class="prelude" id="prelude" aria-label="Preparing Basty's birthday page" aria-live="polite">
+      <div class="prelude-card">
+        <p class="prelude-kicker">booting birthday.build...</p>
+        <div class="loader-skeleton loader-panda"><i></i><i></i><b></b></div>
+        <div class="loader-skeleton loader-title"></div>
+        <div class="loader-skeleton loader-line"></div>
+        <div class="loader-skeleton loader-line short"></div>
+        <div class="load-meter"><i></i></div>
+        <p class="load-copy">getting Basty’s birthday page ready <strong id="loadPercent">0%</strong></p>
+      </div>
+      <div class="curtain curtain-left"><span></span></div>
+      <div class="curtain curtain-right"><span></span></div>
+      <div class="curtain-tie tie-left"></div><div class="curtain-tie tie-right"></div>
+    </section>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="sky-decor" aria-hidden="true">
+      <i class="spark s-one">✦</i><i class="spark s-two">✧</i><i class="spark s-three">✦</i>
+      <i class="cloud cloud-one"></i><i class="cloud cloud-two"></i>
+    </div>
+
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Basty's birthday page">B<span>&lt;/&gt;</span> Day</a>
+      <div class="journey" aria-label="Birthday journey progress">
+        <span class="journey-label">build status</span>
+        <div class="journey-dots"><b class="active"></b><b></b><b></b><b></b></div>
+      </div>
+      <button class="sound-toggle" type="button" aria-pressed="false" aria-label="Toggle celebration sound"><span class="sound-icon">♫</span><span>sound</span></button>
+    </header>
+
+    <main id="top">
+      <section class="scene hero" data-step="0">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> // today belongs to the brother</p>
+          <h1>Happy birthday,<br /><em>Basty!</em></h1>
+          <p class="hero-text">For my best friend. My brother by choice.<br />You showed up on the hard days.<br />You were there for the good ones too.</p>
+          <button class="cta next-scene" data-next="letter" type="button">run birthday.exe <span>→</span></button>
+          <p class="tiny-note">// tap around. there are a few hidden commits.</p>
+        </div>
+        <div class="hero-art panda-hero-art" aria-label="A birthday courier carrying a message for Basty">
+          <aside class="terminal-card" aria-label="A small birthday program for Basty">
+            <div class="terminal-bar"><span><i></i><i></i><i></i></span><b>birthday.js</b><em>LIVE</em></div>
+            <pre><code><span>const</span> brother = <strong>'Basty'</strong>;
+<span>const</span> level = <strong>'legendary'</strong>;
+
+<span>function</span> celebrate() {
+  <b>return</b> <strong>'have a great year, bro'</strong>;
+}
+
+celebrate(); <small>// always</small></code></pre>
+            <p><i></i> build passed: brotherhood = true</p>
+          </aside>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="star-pill pill-one">Basty<br /><small>bro code</small></div>
+          <div class="star-pill pill-two">+</div>
+          <div class="balloon balloon-pink"></div><div class="balloon balloon-butter"></div>
+          <div class="panda panda-birthday" aria-hidden="true">
+            <span class="panda-ear panda-ear-left"></span><span class="panda-ear panda-ear-right"></span>
+            <div class="panda-head"><span class="panda-patch panda-patch-left"><i></i></span><span class="panda-patch panda-patch-right"><i></i></span><span class="panda-snout">⌣</span><span class="panda-cheek panda-cheek-left"></span><span class="panda-cheek panda-cheek-right"></span></div>
+            <div class="panda-body"><span class="panda-paw panda-paw-left"></span><span class="panda-paw panda-paw-right"></span><span class="panda-belly">B</span></div>
+            <span class="party-hat"><i>✦</i></span>
+            <span class="panda-bow">★</span>
+          </div>
+          <div class="panda-envelope-mini"><span>to: Basty</span><b>+</b></div>
+          <div class="cloud-platform"><span></span><span></span><span></span></div>
+          <div class="flower float-flower f-one">+</div><div class="flower float-flower f-two">+</div>
+        </div>
+        <div class="scroll-cue"><span></span> scroll for the real stuff</div>
+      </section>
+
+      <section class="scene letter-scene panda-post-scene" id="letter" data-step="1">
+        <div class="section-label"><span>01</span> commit_01: brother post</div>
+        <div class="mailroom">
+          <div class="panda panda-courier" aria-hidden="true">
+            <span class="panda-ear panda-ear-left"></span><span class="panda-ear panda-ear-right"></span>
+            <div class="panda-head"><span class="panda-patch panda-patch-left"><i></i></span><span class="panda-patch panda-patch-right"><i></i></span><span class="panda-snout">⌣</span><span class="panda-cheek panda-cheek-left"></span><span class="panda-cheek panda-cheek-right"></span></div>
+            <div class="panda-body"><span class="panda-paw panda-paw-left"></span><span class="panda-paw panda-paw-right"></span><span class="panda-belly">B</span></div>
+            <span class="post-cap">post<br /><b>♥</b></span>
+          </div>
+          <div class="mail-content">
+            <p class="eyebrow"><span></span> // messages from the source</p>
+            <h2>Four honest notes.<br /><em>Read the log.</em></h2>
+            <p class="mail-intro">No fancy lines here. Each note is just one thing I want you to remember this year.</p>
+            <div class="mail-experience">
+              <button class="mail-envelope" id="mailEnvelope" type="button" aria-label="Open Basty's first birthday note" aria-expanded="false">
+                <span class="envelope-back"></span><span class="envelope-paper"><i>for Basty — bro</i></span><span class="envelope-front"></span><span class="envelope-flap"></span><span class="envelope-seal">+</span>
+              </button>
+              <p class="envelope-prompt">tap the envelope to open note <b>01</b></p>
+              <article class="note-card" id="noteCard" aria-live="polite" aria-atomic="true">
+                <p class="note-number">note <span>01</span> of <span>04</span></p>
+                <h3></h3><p class="note-body"></p>
+                <button class="next-note" type="button">show me the next one <span>→</span></button>
+              </article>
+            </div>
+          </div>
+        </div>
+        <button class="mini-next next-scene" data-next="garden" type="button">next stop <span>↓</span></button>
+      </section>
+
+      <section class="scene garden-scene" id="garden" data-step="2">
+        <div class="section-label light"><span>02</span> config: good things ahead</div>
+        <div class="garden-intro"><p class="eyebrow light-eyebrow"><span></span> // the good stuff</p><h2>Load what you<br /><em>need this year.</em></h2><p>Open each module. There’s a real wish inside.</p></div>
+        <div class="wish-garden" aria-label="Three birthday wishes for Basty">
+          <button class="wish-flower pink" type="button" data-wish="I hope this year gives you peace in your head, strength when life gets heavy, and reasons to laugh for real."><i></i><i></i><i></i><i></i><b>01</b><span class="stem"></span><small>open it</small></button>
+          <button class="wish-flower yellow" type="button" data-wish="I hope you back yourself more. You are capable of far more than you give yourself credit for, bro."><i></i><i></i><i></i><i></i><b>02</b><span class="stem"></span><small>open it</small></button>
+          <button class="wish-flower purple" type="button" data-wish="I hope the right people stay close, the fake energy stays far away, and every win finds you ready."><i></i><i></i><i></i><i></i><b>03</b><span class="stem"></span><small>open it</small></button>
+          <div class="grass"></div>
+        </div>
+        <div class="wish-bubble" role="status" aria-live="polite"><span class="wish-x">×</span><p>select a module, birthday bro</p></div>
+      </section>
+
+      <section class="scene cake-scene" id="cake" data-step="3">
+        <div class="section-label"><span>03</span> execute: make a wish</div>
+        <div class="cake-layout">
+          <div class="cake-instructions"><p class="eyebrow"><span></span> // now make it count</p><h2>Close your eyes.<br /><em>Run your wish.</em></h2><p>Tap the flames to compile your wish. Keep it private — that’s the deal.</p><div class="wish-meter"><span>build progress</span><div><i></i></div><b>0 / 5</b></div></div>
+          <div class="cake-stage">
+            <div class="plate"></div>
+            <div class="big-cake">
+              <button class="big-flame f1" aria-label="Blow out candle one"></button><button class="big-flame f2" aria-label="Blow out candle two"></button><button class="big-flame f3" aria-label="Blow out candle three"></button><button class="big-flame f4" aria-label="Blow out candle four"></button><button class="big-flame f5" aria-label="Blow out candle five"></button>
+              <i class="big-candle c1"></i><i class="big-candle c2"></i><i class="big-candle c3"></i><i class="big-candle c4"></i><i class="big-candle c5"></i>
+              <div class="cake-frost cake-frost-top"></div><div class="cake-layer layer-one"><b></b><b></b><b></b></div><div class="cake-frost cake-frost-middle"></div><div class="cake-layer layer-two"><b></b><b></b></div><div class="cake-frost cake-frost-bottom"></div><div class="cake-layer layer-three"></div>
+              <div class="cake-bow">B</div>
+            </div>
+          </div>
+        </div>
+        <div class="cake-complete"><span>★</span><p>Love you, bro. Always got you.</p><button class="cta next-scene" data-next="final" type="button">one last thing <span>→</span></button></div>
+      </section>
+
+      <section class="scene finale" id="final" data-step="3">
+        <div class="final-card">
+          <div class="ribbon ribbon-left"></div><div class="ribbon ribbon-right"></div>
+          <p class="eyebrow"><span></span> // final build output</p>
+          <h2>Basty, you are<br /><em>my brother.</em></h2>
+          <p>Not by blood. By every late talk, every dumb joke, every time we showed up for each other, and every memory still ahead of us.</p>
+          <div class="final-badges"><span>real one</span><span>brother by choice</span><span>birthday certified</span></div>
+          <button class="celebrate" type="button">deploy confetti! <b>★</b></button>
+          <p class="end-note">made with respect and big birthday energy for Basty</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="confetti-layer" aria-hidden="true"></div>
+    <audio id="birthdayMusic" loop preload="auto">
+      <source src="basty-birthday-instrumental.ogg" type="audio/ogg" />
+    </audio>
+    <script src="main.js"></script>
+  </body>
+</html>
